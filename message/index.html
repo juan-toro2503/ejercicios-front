@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Bienvenido</h1>
+            <h3 id="name"></h3>
+            <div>
+                <h2 id="first_letter"></h2>
+            </div>
+        </header>
+        
+            <section class="section" >
+                <h2>Digite Su Nombre</h2>
+                <input type="text" id="input_name" >
+                <h3>Comentario</h3>
+                <textarea id="comment" name="" id="" cols="30" rows="10" maxlength="250"  placeholder="Escibe tu mensaje!"></textarea>
+                <div class="container_contador"><h4>Cantidad de letras:</h4><p id="contador">0</p></div>
+                <div class="container_buttons"><button id="btn_mayusculas">Mayusculas</button> <button id="btn_minusculas">Minusculas</button></div>
+                <button class="btn" id="btn_send">Publicar Comentario</button>
+            </section>
+
+            
+        
+
+    </div>
+    <div class="container_comment">
+        <textarea id="show"></textarea>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

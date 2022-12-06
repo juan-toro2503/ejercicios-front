@@ -1,0 +1,17 @@
+div{
+  margin: 25px auto;
+  border-radius: 25px;
+  width: 400px;
+  text-align: center;
+  border: 2px solid ;
+  background-color: rgb(65, 65, 65);
+  color: greenyellow;
+  
+
+
+
+}
+p{
+  font-size: 18px;
+ color:rgb(184, 255, 5)
+}

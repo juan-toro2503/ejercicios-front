@@ -1,0 +1,73 @@
+.container-form{
+  width: 600px;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+  margin:40px auto;
+  border: 2px solid;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: darkslategray;
+
+}
+.container-form h3{
+  color: aliceblue;
+}
+.container-form label{
+  width: 100%;
+  color: aliceblue;
+}
+.container-form input{
+  width: 60%;;
+  height: 28px;
+  margin:8px 0px 10px;
+  border-radius:10px;
+  padding-left: 8px;;
+  border:none;
+  background-color: rgb(116, 192, 192);
+}
+.container-form button{
+  width: 40%;;
+  height: 30px;
+  margin:8px 0px 10px;
+  border: none;
+  border-radius: 8px;
+
+}
+.container-form button:hover{
+  background-color: aquamarine;
+}
+.container-message{
+  margin: 20px auto;;
+ 
+  display:flex;
+  padding: 20px;
+  border: 2px solid;
+  width:95%;
+  justify-content:space-around;
+  background-color: rgb(2, 226, 152);
+  
+}
+
+.container_diurna{
+  width: 95%;
+  padding:5px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid;
+  background-color: rgb(255, 81, 113);
+  flex-wrap: wrap;
+  max-height: 200px;
+  overflow:auto;
+  margin-top: 20px;
+}
+.container_diurna h4{
+  width: 24%;;
+}
+.container_diurna p{
+  width: 24%;;
+  
+
+}
